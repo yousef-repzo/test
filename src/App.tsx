@@ -2,8 +2,8 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-const realKeys: any = {};
-const filterKey = "";
+const realKeys: any = { hi: "hi" };
+const filterKey = "hi";
 
 function App() {
   const [count, setCount] = useState(0);
